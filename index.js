@@ -7,6 +7,7 @@ const mongoose = require("mongoose")
 const socketIo = require("socket.io");
 const io = socketIo(server)
 const User = require('./models/user')
+const CahtRoom = require('./models/chatroom')
 
 //connect database to the project
 const databaseUrl = "mongodb://127.0.0.1:27017/chatBot"; 
